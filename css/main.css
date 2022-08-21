@@ -1,0 +1,144 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.hamburger{
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+
+    background-color: blue;
+    color: white;
+    padding: 25px 0 0 40px;
+
+ 
+}
+
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: green;}
+  }
+
+.container {
+    padding-top:75px ;
+    display: grid; 
+    grid-template-columns: 2.5fr 0.5fr 1fr; 
+    gap: 0px 20px; 
+
+    margin-left: 20px;
+  }
+
+  .mainImage{
+
+    width: 90%;
+
+    margin-right: 50px;
+
+  }
+
+  #exploreMenu{
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 200px;
+    background-color: blue;
+    opacity: 20%;
+
+  }
+
+  .subNav{
+
+    display: none;
+position: absolute;
+    height: 400px;
+    width: 400px;
+
+    background-color: orange;
+
+    color: white;
+    font-size: 24px;
+
+    top: 0px;
+    right: 0px;
+
+  }
+
+  .subNav ul a{
+
+
+    color: white;
+    text-decoration: none;
+
+    line-height:2em;
+
+    
+  }
+
+  .close{
+position: absolute;
+    top: 0;
+    right: 0;
+
+    cursor: pointer;
+  }
+
+  .container1 {
+    padding-top:75px ;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px 20px; 
+
+    margin-left: 20px;
+  }
+
+  .circle1{
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 220px;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 4s;
+ 
+   
+  }
+
+  .container2 {  display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 0px 20px;
+    grid-auto-flow: row;
+  }
+  
+
+  #btn{
+
+    color: white;
+    background-color: navy;
+
+
+  }
+
+  #btn:hover{
+
+    background-color: cornflowerblue;
+  }
+
+  .contact{
+    display: grid; 
+    grid-template-columns: 2fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 20px; 
+    grid-template-areas: 
+      ". . ."; 
+  
+      background-color: bisque;
+   
+  }
